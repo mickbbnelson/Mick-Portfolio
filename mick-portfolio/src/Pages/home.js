@@ -1,13 +1,15 @@
-import Header from "../Components/header"
-import Footer from "../Components/footer"
+import Header from "../Components/Header"
+import Footer from "../Components/Footer"
+// import { Layout } from '../Components/layout'
 
-function Home(){
+const Home = () => {
     return(
         <>
-        <Header />
-            <h1>Home</h1>
-            <h2>My Profile</h2>
-        <Footer />
+        {/* <Header /> */}
+        <div>
+            <h1>Hey Man!</h1>
+        </div>
+        {/* <Footer /> */}
         </>
     )
 }

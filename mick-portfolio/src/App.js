@@ -1,18 +1,32 @@
+import React from 'react';
 import './App.css';
-import Home from './Pages/home'
-import { Route, Routes } from 'react-router-dom'
+import Home from './Pages/Home'
+import NoMatch from './Pages/NoMatch';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Layout from './Components/Layout';
+import { Container } from 'react-bootstrap'
+import Header from './Components/Header';
+import Jumbotron from './Components/Jumbotron'
 
-function App() {
+class App extends React.Component {
+
+  render() {
   return (
-    <div className="App">
-      <div>
+    <>
+    <Header />
+    <Jumbotron />
+    <Container>
+      <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           {/* <Route exact path="/" component={routerProps => <Home routerProps={routerProps} />} /> */}
+          <Route path='*' element={<NoMatch />} />
         </Routes>
-      </div>
-    </div>
+      </Router>
+      </Container>
+    </>
   );
+  }
 }
 
 export default App;
