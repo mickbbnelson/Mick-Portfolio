@@ -18,7 +18,6 @@ const Home = () => {
                 learn about technologies such as React, JavaScript and Ruby on Rails, 
                 the more intrigued I become. I'm excited to apply the skills acquired 
                 at Flatiron and AXS to a position in this ever-evolving industry.</p>
-            <p></p>
         </div>
         </>
     )

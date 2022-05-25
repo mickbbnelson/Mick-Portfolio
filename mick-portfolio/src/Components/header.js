@@ -24,7 +24,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-                        <Nav.Item><Nav.Link href="">Oingo</Nav.Link></Nav.Item>
+                        <Nav.Item><Nav.Link href="/projects">Projects</Nav.Link></Nav.Item>
                         <Nav.Item><Nav.Link href="">Boingo</Nav.Link></Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
