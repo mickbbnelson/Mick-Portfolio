@@ -1,3 +1,6 @@
+import Image1 from '../Components/Image1'
+import Image2 from '../Components/Image2'
+import Image3 from '../Components/Image3'
 
 const Home = () => {
     return(
@@ -18,6 +21,14 @@ const Home = () => {
                 learn about technologies such as React, JavaScript and Ruby on Rails, 
                 the more intrigued I become. I'm excited to apply the skills acquired 
                 at Flatiron and AXS to a position in this ever-evolving industry.</p>
+            <p>When I’m not programming I enjoy hanging out with my wife and dog, traveling,  
+                hiking in the mountains, seeing live music and enjoying everything 
+                that Colorado has to offer!</p>
+        </div>
+        <div>
+            <Image1 />
+            <Image2 />
+            <Image3 />
         </div>
         </>
     )

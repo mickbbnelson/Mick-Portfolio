@@ -1,6 +1,5 @@
 import { Container } from 'react-bootstrap'
 import styled from 'styled-components'
-import MountainPic from '../Assets/MountainPortfolio.jpg'
 import ForrestImage from '../Assets/ForrestImage.jpg'
 
 const Styles = styled.div`
@@ -21,7 +20,7 @@ const Jumbotron = () => {
 	        <p className="lead">Software engineer based out of Denver Colorado</p>
 	        <hr className="my-4"/>
 	        <p></p>
-	        <a className="btn btn-primary btn-lg" href="#" role="button">Projects</a>
+	        <a className="btn btn-primary btn-lg" href="/projects" role="button">Projects</a>
 	        </div>
             </Container>
         </Styles>
