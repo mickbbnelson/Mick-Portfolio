@@ -1,10 +1,19 @@
 import Image1 from '../Components/Image1'
 import Image2 from '../Components/Image2'
 import Image3 from '../Components/Image3'
+import styled from 'styled-components'
+
+const Styles = styled.div`
+    .imageUl li {
+        display: inline-block; 
+        margin: 15px;
+    }
+`;
 
 const Home = () => {
     return(
         <>
+        <Styles>
         <div>
             <h1>About:</h1>
             <p>I’m a motivated front end developer with back end experience 
@@ -26,10 +35,13 @@ const Home = () => {
                 that Colorado has to offer!</p>
         </div>
         <div>
-            <Image1 />
-            <Image2 />
-            <Image3 />
+            <ul className="imageUl">
+                <li><Image1 /></li>
+                <li><Image2 /></li>
+                <li><Image3 /></li>
+            </ul>
         </div>
+        </Styles>
         </>
     )
 }
