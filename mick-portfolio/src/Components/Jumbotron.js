@@ -1,10 +1,10 @@
 import { Container } from 'react-bootstrap'
 import styled from 'styled-components'
-import ForrestImage from '../Assets/ForrestImage.jpg'
+import StarSky from '../Assets/StarSky.jpg'
 
 const Styles = styled.div`
     .container-fluid  {
-        background: url(${ForrestImage}) no-repeat fixed bottom;
+        background: url(${StarSky}) no-repeat fixed bottom;
         background-size: cover;
         color: white;
     }
