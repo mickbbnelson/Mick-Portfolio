@@ -1,11 +1,12 @@
 import { Container } from 'react-bootstrap'
 import styled from 'styled-components'
-import BillyStringsImage from '../Assets/BillyStringsImage2.jpg'
+import TrampledByTurtlesImage from '../Assets/TrampledByTurtlesImage.jpg'
 
 const Styles = styled.div`
-    .BillyImage {
+    .TrampledImage {
         width: 250px;
-        height: 250px;
+        height: 220px;
+        border-radius: 25px;
     }
 `;
 
@@ -14,7 +15,7 @@ const Image1 = () => {
     <Styles>
         <Container>
             <div className="ImageCard">
-                <img src={BillyStringsImage} className="BillyImage" alt="BillyStringsImage"/>
+                <img src={TrampledByTurtlesImage} className="TrampledImage" alt="TrampledImage"/>
             </div>
         </Container>
     </Styles>

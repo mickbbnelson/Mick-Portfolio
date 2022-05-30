@@ -4,6 +4,9 @@ import Image3 from '../Components/Image3'
 import styled from 'styled-components'
 
 const Styles = styled.div`
+    .imageUl {
+        text-align: center;
+    }
     .imageUl li {
         display: inline-block; 
         margin: 15px;
