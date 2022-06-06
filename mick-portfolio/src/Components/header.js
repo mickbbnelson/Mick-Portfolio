@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Styles = styled.div`
     .navbar {
-      background-color: #222  
+      background-color: #  
     }
 
     .navbar-brand, .navbar-nav .nav-link {
@@ -12,6 +12,10 @@ const Styles = styled.div`
 
     .navbar-brand, .navbar-nav .nav-link:hover {
         color: white  
+     }
+
+     .navbar-toggler-icon {
+         color: white
      }
 `;
 

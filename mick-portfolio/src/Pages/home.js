@@ -11,13 +11,16 @@ const Styles = styled.div`
         display: inline-block; 
         margin: 15px;
     }
+    .aboutDiv {
+        color: white;
+    }
 `;
 
 const Home = () => {
     return(
         <>
         <Styles>
-        <div>
+        <div className="aboutDiv">
             <h1>About:</h1>
             <p>I’m a motivated front end developer with back end experience 
                 who recently made a career change from working in live entertainment 

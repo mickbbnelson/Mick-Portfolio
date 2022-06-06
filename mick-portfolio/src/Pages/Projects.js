@@ -15,6 +15,10 @@ const Styles = styled.div`
         display: inline-block; 
         margin: 15px;
     }
+
+    h1 {
+        color: white
+    }
 `;
 
 const Projects = () => {

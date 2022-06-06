@@ -13,7 +13,6 @@ const Styles = styled.div`
 const Jumbotron = () => {
     return(
         <Styles>
-            <Container>
 	        <div className="container-fluid bg-light p-5">
             <p>Mick Nelson</p>
 	        <h2>Full Stack Developer</h2>
@@ -22,7 +21,6 @@ const Jumbotron = () => {
 	        <p></p>
 	        <a className="btn btn-primary btn-lg" href="/projects" role="button">Projects</a>
 	        </div>
-            </Container>
         </Styles>
     )
 }
