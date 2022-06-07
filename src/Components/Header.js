@@ -53,7 +53,7 @@ const Header = () => {
                         <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
                         <Nav.Item><Nav.Link href="/projects">Projects</Nav.Link></Nav.Item>
                         <a href="https://www.linkedin.com/in/mick-nelson-denver/" className="fa fa-linkedin" target="_blank"></a>
-                        <a href="" className="fa fa-twitter"></a>
+                        <a href="https://twitter.com/phunkymick" className="fa fa-twitter"></a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
